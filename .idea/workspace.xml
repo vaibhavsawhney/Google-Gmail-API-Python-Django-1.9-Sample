@@ -194,6 +194,9 @@
       <recent name="C:\Django Projects\test_django_original_try" />
       <recent name="C:\Django Projects\test_django_original_try\test_django_original_try" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Django Projects\test_django_original_try" />
+    </key>
   </component>
   <component name="RunManager" selected="Django server.test_django_original_try">
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
@@ -748,7 +751,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plus/.gitignore">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.058419243" vertical-offset="0" max-vertical-offset="582">
           <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
