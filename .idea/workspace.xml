@@ -37,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plus/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64415157" vertical-offset="0" max-vertical-offset="3179">
-              <caret line="23" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="16" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2572" max-vertical-offset="3179">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
               <folding>
                 <element signature="e#653#689#0" expanded="true" />
               </folding>
@@ -61,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_django_original_try/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3400">
-              <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.16803955" vertical-offset="663" max-vertical-offset="3366">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -94,10 +94,10 @@
         <option value="$PROJECT_DIR$/test_django_original_try/urls.py" />
         <option value="$PROJECT_DIR$/plus/models.py" />
         <option value="$PROJECT_DIR$/plus/admin.py" />
-        <option value="$PROJECT_DIR$/test_django_original_try/settings.py" />
         <option value="$PROJECT_DIR$/plus/.gitignore" />
         <option value="$PROJECT_DIR$/plus/views.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/test_django_original_try/settings.py" />
       </list>
     </option>
   </component>
@@ -734,14 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_django_original_try/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3400">
-          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_django_original_try/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
@@ -762,11 +754,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plus/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64415157" vertical-offset="0" max-vertical-offset="3179">
-          <caret line="23" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="16" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2572" max-vertical-offset="3179">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
             <element signature="e#653#689#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_django_original_try/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16803955" vertical-offset="663" max-vertical-offset="3366">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
