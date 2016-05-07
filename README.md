@@ -6,7 +6,7 @@ This particular integration is for retrieving the tokens for gmail account,valid
 
 <b><i>Please add your own client_secret.json in the root folder before running the python server using "python manage.py runserver"</b></i>
 
-<i>"plus" is my main app
+<i>"plus" is the main app<br>
 Do not go on the name of app as it is for Gmail
 </i>
 Major references:
