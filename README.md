@@ -8,7 +8,7 @@ This particular integration is for retrieving the tokens for gmail account,valid
 
 <i>"plus" is the main app<br>
 Do not go on the name of app as it is for Gmail
-</i>
+</i><br>
 Major references:
 
 1. Django Google API Sample:
