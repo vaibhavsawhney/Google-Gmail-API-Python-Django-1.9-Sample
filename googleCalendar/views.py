@@ -46,7 +46,7 @@ CLIENT_SECRETS = os.path.join(os.path.dirname(__file__), '..', 'client_secrets.j
 
 FLOW = flow_from_clientsecrets(
     CLIENT_SECRETS,
-    scope='https://mail.google.com/',
+    scope='https://www.googleapis.com/auth/calendar',
     redirect_uri='http://127.0.0.1:8000/oauth2callback')
 
 
