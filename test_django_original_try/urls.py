@@ -9,7 +9,7 @@ urlpatterns = [
     #url(r'^$','plus.views.index'),
     #url(r'^oauth2callback', 'plus.views.auth_return'),
     url(r'^$','googleCalendar.views.index'),
-    url(r'^oauth2callback', 'googleCalendar.views.auth_return')
+    url(r'^oauth2callback', 'googleCalendar.views.auth_return'),
 ]
 
 ''''
