@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plus/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1467" max-vertical-offset="3179">
-              <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.32784185" vertical-offset="583" max-vertical-offset="3179">
+              <caret line="46" column="89" selection-start-line="46" selection-start-column="89" selection-end-line="46" selection-end-column="89" />
               <folding>
                 <element signature="e#653#689#0" expanded="true" />
               </folding>
@@ -37,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/googleCalendar/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4398682" vertical-offset="1586" max-vertical-offset="2754">
-              <caret line="109" column="4" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="2754">
+              <caret line="44" column="92" selection-start-line="44" selection-start-column="92" selection-end-line="44" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -59,18 +59,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quickstart.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../test-google-calendar-api-python/quickstart.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.586206" vertical-offset="1343" max-vertical-offset="2057">
-              <caret line="109" column="56" selection-start-line="81" selection-start-column="4" selection-end-line="109" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="IdeDocumentHistory">
@@ -83,7 +71,6 @@
         <option value="$PROJECT_DIR$/plus/admin.py" />
         <option value="$PROJECT_DIR$/plus/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/plus/views.py" />
         <option value="$PROJECT_DIR$/googleCalendar/models.py" />
         <option value="$PROJECT_DIR$/googleCalendar/admin.py" />
         <option value="$PROJECT_DIR$/test_django_original_try/settings.py" />
@@ -91,6 +78,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/test_django_original_try/urls.py" />
         <option value="$PROJECT_DIR$/googleCalendar/views.py" />
+        <option value="$PROJECT_DIR$/plus/views.py" />
       </list>
     </option>
   </component>
@@ -841,12 +829,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plus/views.py">
+    <entry file="file://$PROJECT_DIR$/googleCalendar/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1467" max-vertical-offset="3179">
-          <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#653#689#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../test-google-calendar-api-python/quickstart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64705884" vertical-offset="1479" max-vertical-offset="2057">
+          <caret line="109" column="56" selection-start-line="81" selection-start-column="4" selection-end-line="109" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -861,31 +859,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/googleCalendar/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../test-google-calendar-api-python/quickstart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.586206" vertical-offset="1343" max-vertical-offset="2057">
-          <caret line="109" column="56" selection-start-line="81" selection-start-column="4" selection-end-line="109" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/googleCalendar/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4398682" vertical-offset="1586" max-vertical-offset="2754">
-          <caret line="109" column="4" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="2754">
+          <caret line="44" column="92" selection-start-line="44" selection-start-column="92" selection-end-line="44" selection-end-column="92" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plus/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32784185" vertical-offset="583" max-vertical-offset="3179">
+          <caret line="46" column="89" selection-start-line="46" selection-start-column="89" selection-end-line="46" selection-end-column="89" />
+          <folding>
+            <element signature="e#653#689#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

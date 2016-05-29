@@ -42,7 +42,7 @@ from oauth2client.contrib.django_orm import Storage
 # application, including client_id and client_secret, which are found
 # on the API Access tab on the Google APIs
 # Console <http://code.google.com/apis/console>
-CLIENT_SECRETS = os.path.join(os.path.dirname(__file__), '..', 'client_secrets.json')
+CLIENT_SECRETS = os.path.join(os.path.dirname(__file__), '..', 'calendar_client_secrets.json')
 
 FLOW = flow_from_clientsecrets(
     CLIENT_SECRETS,

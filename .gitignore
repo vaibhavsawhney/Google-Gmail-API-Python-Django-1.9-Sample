@@ -3,3 +3,5 @@ googleCalendar/client_secrets.json
 .idea
 .idea/workspace.xml
 client_secrets.json
+calendar_client_secrets.json
+gmail_client_secrets.json
