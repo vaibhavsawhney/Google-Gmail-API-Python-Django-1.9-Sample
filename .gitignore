@@ -2,5 +2,4 @@ client_secrets.json
 test_django_original_try/client_secrets.json
 plus/client_secrets.json
 .idea
-db.sqlite3
 .idea/workspace.xml
