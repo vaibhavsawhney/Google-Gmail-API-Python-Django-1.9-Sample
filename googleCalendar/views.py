@@ -32,7 +32,7 @@ from django.http import HttpResponse
 from django.http import HttpResponseBadRequest
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
-from plus.models import *
+from googleCalendar.models import *
 from test_django_original_try import settings
 from oauth2client.contrib import xsrfutil
 from oauth2client.client import flow_from_clientsecrets
@@ -74,10 +74,40 @@ def index(request):
   else:
     http = httplib2.Http()
     http = credential.authorize(http)
-    service = build('calendar', "v3", http=http)
+    service = build('calendar', 'v3', http=http)
     listEvents(service)
+
+    '''Just For Testing'''
+    event = {
+      'summary': 'Google I/O 2015',
+      'location': '800 Howard St., San Francisco, CA 94103',
+      'description': 'A chance to hear more about Google\'s developer products.',
+      'start': {
+        'dateTime': '2016-04-07T09:00:00-07:00',
+        'timeZone': 'America/Los_Angeles',
+      },
+      'end': {
+        'dateTime': '2016-04-08T17:00:00-07:00',
+        'timeZone': 'America/Los_Angeles',
+      },
+      'recurrence': [
+        'RRULE:FREQ=DAILY'
+      ],
+      'attendees': [
+        {'email': 'vaibhavsawhney1511@gmail.com'}
+      ],
+      'reminders': {
+        'useDefault': False,
+        'overrides': [
+          {'method': 'email', 'minutes': 24 * 60},
+          {'method': 'popup', 'minutes': 10},
+        ],
+      },
+    }
+
+    link = addEvent(service,event)
     print("Successful")
-    return HttpResponse("Successful")
+    return HttpResponse(link)
 
 
 def auth_return(request):
@@ -118,3 +148,10 @@ def listEvents(service):
     for event in events:
         start = event['start'].get('dateTime', event['start'].get('date'))
         print(start, event['summary'])
+
+
+def addEvent(service,event):
+    event = service.events().insert(calendarId='primary', body=event).execute()
+    link = event.get('htmlLink')
+    print('Event created: %s' % link)
+    return link
